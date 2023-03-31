@@ -1,0 +1,130 @@
+.user-component {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:2% 4% 3% 4%; 
+}
+
+.user-component-chats {
+    margin-bottom:6%;
+}
+
+.user-component__info {
+    display:flex;
+    align-items:center;
+}
+
+.user-component__avatar {
+    border-radius:41%;
+    margin-right:20px;
+}
+
+.user-component__avatar-lg {
+    width:70px;
+    height:70px;
+}
+
+.user-component__avatar-m{
+    width:60px;
+    height:60px;
+}
+
+.user-component__avatar-sm{
+    width:50px;
+    height:50px;
+}
+
+.user-component__avatar-update{
+    width:45px;
+    height:45px;
+    border-radius:41%;
+    margin-bottom:7px;
+}
+
+.user-component__name-lg {
+    font-size:18px;
+}
+
+.user-component__name-m {
+    font-size:16px;
+}
+
+.user-component__name-sm {
+    font-size:15px;
+}
+
+.user-component__name-xs {
+    font-size:12px;
+}
+
+.user-component__name-sm i {
+    margin-left:3px;
+    color:#F78CAA;
+}
+
+.user-component__name {
+    display:flex;
+    align-items:center;
+}
+
+.user-component__name span{
+    margin-right:6px;
+}
+
+.user-component__name i{
+    margin-left:6px;
+    opacity:0.3;
+}
+
+.user-component__message {
+    font-size:13px;
+    margin-top:5px;
+}
+
+.user-component__state {
+    border:solid 1px black;
+    border-radius:20px;
+    padding:3px 10px;
+    color:rgba(0,0,0,0.9);
+    font-size:11px;
+    display:flex;
+    align-items:center;
+}
+
+.user-component__state-chat {
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+}
+
+.user__component__state-i {
+    margin-left:5px;
+}
+
+.user-component__title {
+    font-size:12px;
+    margin:5% 4% 2% 4%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.user-component__title i {
+    opacity:0.4;
+}
+
+.user-component__row {
+    display:inline-block;
+    margin-left:4%;
+}
+
+.user-component__update {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-right:10px;
+}
+
+.user-component__chat-noti {
+    margin-top:5px;
+}

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Open+Sans:wght@400;600&display=swap');
+@import "variables.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/header.css";
+@import "components/nav-bar.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+
+
+
+/* Screens */
+@import "screens/login.css";
+@import "screens/friend.css";
+@import "screens/chats.css";
+@import "screens/chat.css";
+@import "screens/view.css";
+@import "screens/more.css";
+@import "screens/setting.css";
+
+
+body {
+  font-weight:300;
+  margin:0;
+}
+
+a {
+  color:inherit;
+  text-decoration:none;
+}
+
+.main-screen {
+  height:100vh;
+  padding-top:20%;
+}
